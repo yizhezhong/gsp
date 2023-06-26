@@ -1,0 +1,19 @@
+%this function gnerates a random geometric graph with N nodes, diameter D, radius r
+function graph = geometric(N, D, r)
+    graph = grasp_struct;
+    graph.A = zeros(total_nodes(N));
+    %graph.layout = zeros(total_nodes(N), 2);
+    graph.layout = -D + (D+D)*rand(total_nodes(N), 2);
+
+    for i = 1:N
+        for j = i:N
+            if sqrt(graph.layout())
+
+
+
+
+
+
+
+
+end
